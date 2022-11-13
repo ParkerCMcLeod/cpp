@@ -1,0 +1,47 @@
+Errors: 
+
+    Compile Time Errors: Violations of the language found by the compiler.
+        
+        Syntax Errors
+        Type Errors
+    
+    Link Time Errors: Errors found by the linked when trying to combine object files into an executable.
+
+    Run-Time Errors: Errors found by checks in a running program.
+
+        Errors detected by hardware/OS
+        Errors detected by libraries
+        Errors detected by user code
+
+    Logic Errors: Errors found by the programmer looking for the causes of erroneous results.
+
+Program Error Default Assumptions:
+
+    1. Should produce the desired results for all legal inputs.
+    2. Should give reasonable error messages for all illegal inputs.
+    3. Need not worry about hardware bugs and misbehavior (out of our scope).
+    4. Need not worry about system software bus and misbehvaior (out of our scope).
+    5. Is allowed to terminate after finding an error.
+
+Cause of Errors:
+
+    Poor specifications of behavior - describe your program before.
+    Incomplete programs - look at all cases.
+    Unexpected arguments passed.
+    Unexpected program inputs.
+    Logical errors!
+
+Use callee checks! The function being called is responsible for reporting them!
+
+Error handling limimtations:
+
+    Can't modify the library.
+    Performance - costs more than worth to check.
+
+Exceptions: If a function finds an error that it doesn't know what to do with, it throws an exception - indicating what is wrong. 
+            If the function is in a try-catch block, it will move on to the catch section. Otherwise it stops the program execution.
+
+out_of_range exception is often thrown.
+
+<> are called template arguments.
+
