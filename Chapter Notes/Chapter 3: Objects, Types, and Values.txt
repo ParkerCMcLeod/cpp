@@ -1,0 +1,11 @@
+Introduction to storing and using data.
+
+An object is a region of memory with a type - specifying the information contained within it. 
+A named object is a variable.
+
+Using a var uninitialized is not type safe. Initialize them. 
+Only possible exception is with vars being set from input.
+
+Not all conversions betweens variable types are safe. A common issues is "narrowing".
+It is when you put a type like double (8bytes) and try to place it in a char (1byte).
+

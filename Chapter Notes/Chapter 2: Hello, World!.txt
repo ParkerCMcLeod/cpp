@@ -1,0 +1,19 @@
+Writing hello world program and setting up an environment. Run before you can walk. 
+
+The "source code" and "program text" are compiled into "object code".
+The object code is ".o" in Unix and ".obj" in Windows.
+
+The seperate parts of code are called "translation units". Examples of this are "hello_world.cpp" and "std_lib_faciliites.h".
+The translation units are linked together by the "linker". 
+
+Steps are as follows:
+    1. Source code file is compiled into object code (hello_world.cpp -> hello_world.obj) by the C++ compiler. 
+    2. The object code is linked with other object code (hello_world.o + ostream.o -> hello_world.out) from the included translation units by the C++ linker.
+
+Note: object code AND executables are not portable amoung systems. 
+
+Errors can be classified as follows (from easiest to hardest to fix*):
+    compile-time errors
+    link-time errors
+    run-time/logic errors
+

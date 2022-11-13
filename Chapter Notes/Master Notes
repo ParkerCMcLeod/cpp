@@ -1,0 +1,1 @@
+To check for invalid type conversions, use gcc flag -Wconversion. -Wall -Wextra also works.

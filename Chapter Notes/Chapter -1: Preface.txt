@@ -1,0 +1,3 @@
+This book covers non-trival, comprehensive programming. Not intended as a great first programming book, but a great C++ book. 
+Lots of examples and practice is to be expected. Emphasis that this is not a CS book, but a programming book.
+The version used is C++11 (2011) with some C++14(2014) features shown. He was actively working on 14 while writing this book.

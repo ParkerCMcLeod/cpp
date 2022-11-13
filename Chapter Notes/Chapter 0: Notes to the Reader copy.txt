@@ -1,0 +1,2 @@
+Summary of chapters contents and organization. Book is meant to be read front to back. 
+Programming first and C++ second. C++ is the chosen tool for programming, that's all.
