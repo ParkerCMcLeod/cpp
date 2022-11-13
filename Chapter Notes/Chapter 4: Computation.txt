@@ -1,0 +1,4 @@
+We're going over extressions, selections, iterations, and functions.
+Also... vectors!
+
+Vectors are dynamic and store the size followed by the data;
