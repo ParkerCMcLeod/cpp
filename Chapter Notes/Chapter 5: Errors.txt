@@ -31,17 +31,23 @@ Cause of Errors:
     Unexpected program inputs.
     Logical errors!
 
-Use callee checks! The function being called is responsible for reporting them!
+Exceptions split responsiblitity. The called function reports the error and the calling function handles it.
+Instead of the called function return a value, it throws an exception. 
+If that exception is not caught by a try-catch block, the program terminates.
+
+collections of data are often called "containers" e.g. vectors
 
 Error handling limimtations:
 
     Can't modify the library.
     Performance - costs more than worth to check.
 
-Exceptions: If a function finds an error that it doesn't know what to do with, it throws an exception - indicating what is wrong. 
-            If the function is in a try-catch block, it will move on to the catch section. Otherwise it stops the program execution.
-
 out_of_range exception is often thrown.
 
 <> are called template arguments.
+
+Use preconditions and postconditions to help check program for bugs.
+
+Review Answers:
+ 
 

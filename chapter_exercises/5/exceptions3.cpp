@@ -5,11 +5,10 @@
 int main()
 {
     try {
-        vector<int> vec = {1,2,3};
-        int x = vec[3]; // should throw runtime error
+        int x = narrow_cast<int>(3.9); // should throw narrowing exception
     } catch (runtime_error& e) {
         cout << "\n\n\n";
-        cout << "runtime error: " << e.what() << '\n';
+        cerr << "runtime error: " << e.what() << '\n';
         cout << "\n\n\n";
     }
 
