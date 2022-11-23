@@ -1,0 +1,9 @@
+This chapter focuses of the creation of a program. Organization and all.
+    Analysis
+    Design
+    Implementation
+    Testing
+    Redesign
+    Re-implentation 
+
+Understand you problem. Prototyping can be helpful.

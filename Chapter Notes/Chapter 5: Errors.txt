@@ -48,6 +48,5 @@ out_of_range exception is often thrown.
 
 Use preconditions and postconditions to help check program for bugs.
 
-Review Answers:
  
 
