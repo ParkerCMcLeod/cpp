@@ -6,31 +6,25 @@ class Token {
         double value;
 };
 
-double expression(); // deals with + and - & calls term() and get_token()
-double term(); // deals with * and / & calls primary() and get_token()
-Token primary(); // deals with numbers and parentheses & calls expression() and get_token
-Token get_token(); // reads in characters and composes tokens & uses cin
+vector<Token> process_input(std::string input) 
+{
+    vector<Token> token_stream;
+    for(int i=0;i<input.length();i++) {
+        char temp = input[i];
+        switch(temp):
+        
+    }
+    return token_stream;
+}
 
 int main()
 {
-    cout << expression();
+    std::string input;
+    std::cout << "Expression: \n";
+    std::getline(std::cin,input);
+    vector<Token> token_stream;
+    token_stream = process_input(input);
+    double result = 0;
+    std::cout << "Result: " << result << "\n";
     return 0;
-}
-
-double expression() 
-{
-    double term = term();
-
-}
-
-Token get_token()
-{
-    char c[100];
-    cin.getline(c,100);
-    for(int i;i<100;++i) {
-        Token temp;
-        switch(c[i]) {
-            case '\n':
-        }
-    }
 }
